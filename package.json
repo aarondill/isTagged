@@ -1,6 +1,6 @@
 {
 	"name": "@aarond309/is-tagged",
-	"version": "1.0.2",
+	"version": "1.0.3",
 	"description": "Detect if a function is called as a tagged template or a regular function call",
 	"main": "dist/index.js",
 	"types": "dist/index.d.ts",
@@ -8,7 +8,7 @@
 		"dist"
 	],
 	"scripts": {
-		"prepublish": "npm test && npm run build",
+		"prepublishOnly": "npm test && npm run build",
 		"test": "jest",
 		"build": "tsc --build",
 		"clean": "rimraf ./dist",
