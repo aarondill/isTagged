@@ -2,7 +2,7 @@
 
 ## Installation
 
-`npm install https://github.com/aarondill/isTagged.git
+`npm install https://github.com/aarondill/isTagged.git`
 
 ## Usage
 
