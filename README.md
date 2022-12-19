@@ -2,6 +2,7 @@
 
 ## Installation
 
+Install from npm:
 `npm install @aarond309/is-tagged`
 
 ## Usage
