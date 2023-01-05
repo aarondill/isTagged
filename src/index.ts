@@ -3,7 +3,9 @@ purpose with or without fee is hereby granted, provided that the above copyright
 notice and this permission notice appear in all copies.
  */
 
-type ArrayLike = { length: number; [i: number]: any };
+export interface TaggedArgs extends ArrayLike<any> {
+	0: TemplateStringsArray;
+}
 /**
  * Returns true if the arguments passed correspond to a tagged function.
  * @example // Using rest arguments:
@@ -19,9 +21,7 @@ type ArrayLike = { length: number; [i: number]: any };
  * @returns Boolean determining if the arguments passed belong to a tagged
  * function
  */
-export default function isTagged<T extends ArrayLike>(
-	args: T
-): args is T & { 0: TemplateStringsArray } {
+export default function isTagged(args: ArrayLike<any>): args is TaggedArgs {
 	if (typeof args !== "object") return false;
 	const first = args[0];
 	return !!(
