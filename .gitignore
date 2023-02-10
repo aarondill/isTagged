@@ -1,3 +1,5 @@
 node_modules
-out
-dist
+/dist
+package-lock.json
+yarn.lock
+pnpm-lock.yaml

@@ -3,7 +3,7 @@
 ## Installation
 
 Install from npm:
-`npm install @aarond309/is-tagged`
+`npm install @aarondill/is-tagged`
 
 ## Usage
 
@@ -12,7 +12,7 @@ Import the default export and call it using the _entire_ list of arguments to th
 Example:
 
 ```js
-import isTagged from "@aarond309/is-tagged";
+import isTagged from "@aarondill/is-tagged";
 
 function tag(...args) {
 	// or `isTagged(arguments)`

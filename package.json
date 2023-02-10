@@ -1,5 +1,5 @@
 {
-	"name": "@aarond309/is-tagged",
+	"name": "@aarondill/is-tagged",
 	"version": "2.1.1",
 	"description": "Detect if a function is called as a tagged template or a regular function call",
 	"main": "dist/index.js",
@@ -36,5 +36,8 @@
 	},
 	"publishConfig": {
 		"access": "public"
+	},
+	"dependencies": {
+		"@types/node": "^18.13.0"
 	}
 }
