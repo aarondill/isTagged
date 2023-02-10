@@ -1,6 +1,6 @@
 {
 	"name": "@aarondill/is-tagged",
-	"version": "2.1.1",
+	"version": "2.1.2",
 	"description": "Detect if a function is called as a tagged template or a regular function call",
 	"main": "dist/index.js",
 	"types": "dist/index.d.ts",
